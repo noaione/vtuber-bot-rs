@@ -1,0 +1,20 @@
+[package]
+name = "n4o-vt-bot-rs"
+description = "A Discord Bot utilizing the ihateani.me API for VTuber Live data, now in Rust!"
+version = "1.0.0"
+authors = ["noaione <noaione0809@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/noaione/vtuber-bot-rs"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["vtuber", "api", "bot", "discord", "discord-bot"]
+readme = "README.md"
+homepage = "https://api.ihateani.me/v2/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.64"
+cynic = { version = "0.12.2", features = ["surf"] }
+surf = "2.0.0"
+serenity = { version = "0.10.4", default-features = false, features = ["builder", "client", "framework", "gateway", "http", "model", "standard_framework", "utils", "rustls_backend", "unstable_discord_api", "collector", "cache"] }
