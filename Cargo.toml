@@ -5,11 +5,10 @@ version = "1.0.0"
 authors = ["noaione <noaione0809@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/noaione/vtuber-bot-rs"
-license = "MIT"
 license-file = "LICENSE"
 keywords = ["vtuber", "api", "bot", "discord", "discord-bot"]
 readme = "README.md"
-homepage = "https://api.ihateani.me/v2/"
+homepage = "https://vtuber.ihateani.me/lives"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
